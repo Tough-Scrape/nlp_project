@@ -1,1 +1,3 @@
-# README for NLP Project
+Github NLP Project
+
+Team: Tough Scrape
