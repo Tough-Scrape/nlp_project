@@ -1,5 +1,5 @@
 __pycache__
-ipynb_checkpoints
+.ipynb_checkpoints
 env.py
 .DS_Store
 .vscode
