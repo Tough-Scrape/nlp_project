@@ -65,7 +65,7 @@ def stem(s):
 def prep_urls(df):
     df['original'] = df.readme_contents
     df['clean'] = df.readme_contents.apply(basic_clean).apply(remove_stopwords)
-    df['stemmed'] = df.clean.apply(basic_clean).apply(stem)
+    df['stemmed'] = df.clean.apply(stem)
     df['lemmatized'] = df.clean.apply(lemmatize)
     
     #df.drop(columns = ['body'], inplace = True)
