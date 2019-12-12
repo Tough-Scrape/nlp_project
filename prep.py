@@ -14,6 +14,7 @@ def basic_clean(string):
     Replace anything that is not a letter, number, whitespace or a single quote.
     """
     string = string.lower()
+    string = string.replace('c++','cplusplus')
     string = unicodedata.normalize('NFKD', string).encode('ascii', 'ignore').decode('utf-8', 'ignore')
     
     # remove anything not a space character, an apostrophy, letter, or number
